@@ -1,16 +1,25 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# UsePopcorn
+A dynamic movie search app built with React — find and track your favourite films!
 
-Currently, two official plugins are available:
+UsePopcorn is a movie discovery React application that pulls real-time data from the IMDB database (via the OMDB API). The app lets you search movies by title, view posters and details, and maintain a watchlist for your session. The primary aim is to showcase fundamental and modern React concepts, including state management, props, and the useEffect hook for fetching API data.​
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features 
+* Search for movies with instant results from IMDB (via OMDb)
+* View details such as Poster and Title
+* Responsive UI built using React components
+* Persistent watchlist saved to localStorage during the session
+* State management using the useState hook
+* Data fetching handled in useEffect
+* Clean component design with reusable props
 
-## React Compiler
+<img width="1461" height="1014" alt="Screenshot 2025-10-26 at 10 10 51" src="https://github.com/user-attachments/assets/86bd358f-14b7-4b4f-b188-0060129e96eb" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Demo
+To try UsePopcorn locally:
+* git clone https://github.com/your-username/usepopcorn.git
+* cd usepopcorn
+* npm install
+* npm run dev
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
