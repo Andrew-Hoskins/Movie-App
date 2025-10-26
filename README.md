@@ -13,11 +13,19 @@ UsePopcorn is a movie discovery React application that pulls real-time data from
 * Data fetching handled in useEffect
 * Clean component design with reusable props
 
+UsePopcorn is an educational project (jonas schmedtmann - Ultimate React Course) focused on modern React practices and integrating third-party APIs.
+
 <img width="1461" height="1014" alt="Screenshot 2025-10-26 at 10 10 51" src="https://github.com/user-attachments/assets/86bd358f-14b7-4b4f-b188-0060129e96eb" />
+
+# Technologies Used
+* React.js (with functional components and hooks)
+* JavaScript (ES6+)
+* OMDb API (to fetch IMDB data)
+* HTML & CSS
 
 # Demo
 To try UsePopcorn locally:
-* git clone https://github.com/your-username/usepopcorn.git
+* git clone https://github.com/your-username/movie-app.git
 * cd usepopcorn
 * npm install
 * npm run dev
